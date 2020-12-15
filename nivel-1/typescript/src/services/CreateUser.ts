@@ -12,8 +12,8 @@ interface CreateUserDate {
   email: string;
   password: string;
   //techs: string[]; // endetede que o tipo é um array de Strings ou seja, tipo único
-  //techs: Array<string>; // ou Array somente com strings : outra forma de declarar um tipo array de strings
-  techs: Array<string | TechObject>; // Strings ou TechObject
+  //techs: Array<string>; // Array somente com strings : outra forma de declarar um tipo array de strings, tipo único
+  techs: Array<string | TechObject>; // Strings ou TechObject, tipo variavel
 }
 
 //export default function createUser(name = '', email: string, password: string) {
